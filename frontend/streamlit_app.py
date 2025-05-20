@@ -58,13 +58,13 @@ col1, col2, col3 = st.columns([5, 1, 1])
 with col2:
     lang_toggle = st.toggle("En/Hi")
     st.session_state.lang = "hi" if lang_toggle else "en"
-with col3:
-    if st.button("🎤"):
-        voice_input = listen_voice()
-        if voice_input:
-            st.session_state.history.append({"role": "user", "text": voice_input})
-            st.session_state.loading = True
-            st.rerun()
+# with col3:
+#     if st.button("🎤"):
+#         voice_input = listen_voice()
+#         if voice_input:
+#             st.session_state.history.append({"role": "user", "text": voice_input})
+#             st.session_state.loading = True
+#             st.rerun()
 lang = st.session_state.lang
 
 # Text labels(Task 3: Multilingual support)

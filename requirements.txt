@@ -10,3 +10,4 @@ streamlit
 requests
 pyttsx3
 SpeechRecognition
+gunicorn  
