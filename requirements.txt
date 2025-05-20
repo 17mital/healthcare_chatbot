@@ -1,0 +1,12 @@
+Flask
+flask-cors
+langchain
+langchain-groq
+sentence-transformers
+faiss-cpu
+python-dotenv
+gTTS
+streamlit
+requests
+pyttsx3
+SpeechRecognition
