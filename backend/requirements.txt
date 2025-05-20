@@ -11,3 +11,4 @@ requests
 pyttsx3
 SpeechRecognition
 gunicorn  
+langchain_huggingface
