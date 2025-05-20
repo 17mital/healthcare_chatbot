@@ -12,3 +12,4 @@ pyttsx3
 SpeechRecognition
 gunicorn  
 langchain_huggingface
+langchain-community
