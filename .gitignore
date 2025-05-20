@@ -1,1 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
 .env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Python egg
+*.egg-info/
+
+# Compiled FAISS indexes
+backend/faiss_en_index
+backend/faiss_hi_index
+
+# Log files
+*.log
+
+# Deployment config (optional)
+render.yaml
