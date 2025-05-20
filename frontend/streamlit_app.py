@@ -224,7 +224,7 @@ if st.session_state.get("loading", False):
     # Show chat history + loader
     # API call
     try:
-        response = requests.post("http://localhost:5000/api/faq", json={"question": st.session_state.history[-1]["text"], "lang": lang})
+        response = requests.post("https://healthcare-chatbot-zqjq.onrender.com/api/faq", json={"question": st.session_state.history[-1]["text"], "lang": lang})
         if response.status_code == 200:
             answer = response.json()["response"]
             st.session_state.history.append({"role": "bot", "text": answer})

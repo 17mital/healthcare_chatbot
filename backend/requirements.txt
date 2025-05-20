@@ -13,3 +13,4 @@ SpeechRecognition
 gunicorn  
 langchain_huggingface
 langchain-community
+jq
